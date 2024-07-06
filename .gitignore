@@ -1,0 +1,40 @@
+# User-specific files
+*.xcuserstate
+*.xcworkspace
+!default.xcworkspace
+xcuserdata/
+
+# Build generated files
+build/
+DerivedData/
+*.ipa
+*.app.dSYM.zip
+*.app.dSYM
+
+# Code signing
+*.mobileprovision
+*.xcconfig
+
+# Carthage dependencies
+Carthage/Build/
+
+# CocoaPods dependencies
+Pods/
+Podfile.lock
+podspec.json
+
+# Swift Package Manager
+/.build/
+Package.resolved
+# Add this line if you have a checked out version of your package
+# workspace that you want to exclude
+Package.pins
+# Add this line if you use a versioned generated Xcode project
+# workspace from SPM
+*.xcodeproj*
+
+# Other
+.DS_Store
+*.swp
+*.swo
+
